@@ -1,0 +1,56 @@
+body {
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300vh;
+  width: 100vw;
+}
+
+.outer {
+  height: 80%;
+  width: 80%;
+  background: palegreen;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  height: 80%;
+  width: 80%;
+  background: rgba(25, 0, 255, 0.39);
+  position: relative;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+  height: 100px;
+  width: 100px;
+  background: rgb(255, 183, 1);
+  position: fixed;
+  border-radius: 50%;
+}
+
+.first {
+  bottom: 0;
+  left: 0;
+}
+
+.second {
+  bottom: 0;
+  right: 0;
+}
+
+.third {
+  top: 0;
+  left: 0;
+}
+
+.fourth {
+  top: 0;
+  right: 0;
+}

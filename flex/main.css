@@ -1,0 +1,33 @@
+body {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent {
+  width: 70%;
+  height: 70%;
+  background: plum;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.parent > div {
+  width: 100px;
+  height: 100px;
+  background: green;
+  margin: 10px;
+}
+
+.parent > div:nth-child(1) {
+  flex: 1;
+}
+
+.parent > div:nth-child(2) {
+  flex: 2;
+}
